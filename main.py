@@ -1,6 +1,12 @@
+import os
 import requests
+from dotenv import load_dotenv
 
-API_KEY = "4d2df22a16d428de1301da632a9d7809"
+# Load variables from .env
+load_dotenv()
+
+# Read the API key from .env
+API_KEY = os.getenv("API_KEY")
 
 city = input("Enter city name: ")
 
@@ -20,4 +26,4 @@ if response.status_code == 200:
     print("Wind Speed:", data["wind"]["speed"], "m/s")
 
 else:
-    print("City not found.")
+    print("❌ City not found or API key is invalid.")
