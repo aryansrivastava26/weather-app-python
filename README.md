@@ -2,21 +2,21 @@
 
 A simple Python weather application that fetches real-time weather data using the OpenWeather API.
 
-## 🚀 Features
+## Features
 
-- 🌍 Search weather by city
-- 🌡️ Temperature in Celsius
-- 💧 Humidity
-- 💨 Wind Speed
-- ☁️ Weather Description
+-  Search weather by city
+-  Temperature in Celsius
+-  Humidity
+-  Wind Speed
+-  Weather Description
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - Python
 - Requests
 - OpenWeather API
 
-## 📦 Installation
+## Installation
 
 ```bash
 git clone https://github.com/aryansrivastava26/weather-app-python.git
@@ -28,7 +28,7 @@ pip install -r requirements.txt
 python3 main.py
 ```
 
-## 📸 Output
+##  Output
 
 Example:
 
@@ -36,7 +36,7 @@ Example:
 Enter city name:
 Patna
 
-🌦 Weather Report
+Weather Report
 -----------------------
 Temperature: 32°C
 Humidity: 67%
