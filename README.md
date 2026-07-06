@@ -43,6 +43,6 @@ Humidity: 67%
 Weather: Broken Clouds
 ```
 
-## 👨‍💻 Author
+## Author
 
 Aryan Srivastava
